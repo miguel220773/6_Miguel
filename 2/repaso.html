@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ejercicios con tablas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 6px 10px;
+      text-align: center;
+      vertical-align: middle;
+    }
+    caption {
+      text-align: left;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .ej1-outer td {
+      padding: 0;
+    }
+    .ej1-left {
+      width: 60px;
+      padding: 10px;
+      vertical-align: middle;
+    }
+    .ej1-inner td {
+      padding: 6px 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <table class="ej1-outer">
+    <caption>Ejercicio 1</caption>
+    <tr>
+      <td class="ej1-left" rowspan="1">La</td>
+
+      <td>
+        <table class="ej1-inner">
+          <tr>
+            <td>camiseta</td>
+            <td>es</td>
+            <td>verde</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Ejercicio 2</caption>
+    <tr>
+      <td>Había</td>
+      <td>
+        <table>
+          <tr>
+            <td>una vez un barquito</td>
+            <td>chiquitito</td>
+          </tr>
+          <tr>
+            <td>que no sabía</td>
+            <td>que no sabía</td>
+          </tr>
+          <tr>
+            <td>sabía</td>
+            <td>navegar</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Ejercicio 3</caption>
+    <tr>
+      <td>Érase</td>
+      <td>
+        <table>
+          <tr><td>una vez</td></tr>
+          <tr><td>un triste</td></tr>
+          <tr><td>planeta y oscuro</td></tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Ejercicio 4</caption>
+    <tr>
+      <td>y</td>
+      <td>
+        <table>
+          <tr>
+            <td>la</td>
+            <td>luz</td>
+          </tr>
+          <tr>
+            <td>al nacer descubrió</td>
+            <td>un bonito mundo de color</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Ejercicio 5</caption>
+    <tr>
+      <td>Hakuna</td>
+      <td>
+        <table>
+          <tr>
+            <td>matata</td>
+            <td>qué bonito</td>
+          </tr>
+          <tr>
+            <td>es vivir!</td>
+            <td></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Ejercicio 6</caption>
+    <tr>
+      <td>Si yo rico</td>
+      <td>
+        <table>
+          <tr>
+            <td>fuera</td>
+            <td>dubi dubidubi dubidubi du</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
