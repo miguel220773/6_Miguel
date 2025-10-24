@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type=radio]+label,
+        input[type=checkbox]+label {
+            display: inline;
+        }
+
+        input[type=submit],
+        input[type=reset],
+        button[type=submit],
+        button[type=reset] {
+            display: inline;
+            margin-right: 10px;
+            margin-top: 15px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        input[type=submit], button[type=submit] {
+            background-color: rgb(79, 60, 96);
+        }
+
+        button[type=reset], input[type=reset] { 
+            background-color: rgb(196, 76, 20);
+        }
+
+        *:required {
+            border-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>
+form>
+  <fieldset>
+    <legend>Personaje</legend>
+    <label for="superheroe">Superhéroe favorito</label>
+    <select id="superheroe" name="superheroe">
+      <option value="">elige superheroe</option>
+      <option value="spiderman">Spiderman</option>
+      <option value="ironman">Ironman</option>
+      <option value="batman">Batman</option>
+    </select><br><br>
+
+    <label for="color">Color</label>
+    <input type="color" id="color" name="color"><br><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Datos de contacto</legend>
+
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Nombre Apellido"><br><br>
+
+    <label for="telefono">Telefono</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="9999999"><br><br>
+
+    <label for="fecha">Fecha</label>
+    <input type="date" id="fecha" name="fecha"><br><br>
+
+    <label for="pass">Contraseña</label>
+    <input type="password" id="pass" name="pass"><br><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Selecciona forma de contacto preferida:</legend>
+    <input type="radio" id="email" name="contacto" value="email">
+    <label for="email">Email</label>
+
+    <input type="radio" id="telefono2" name="contacto" value="telefono">
+    <label for="telefono2">Teléfono</label>
+
+    <input type="radio" id="carta" name="contacto" value="carta">
+    <label for="carta">Carta</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Elige tus asignaturas favoritas</legend>
+    <input type="checkbox" id="web" name="asignatura" value="web">
+    <label for="web">Aplicaciones web</label><br>
+
+    <input type="checkbox" id="seguridad" name="asignatura" value="seguridad">
+    <label for="seguridad">Seguridad informatica</label><br>
+  </fieldset>
+
+  <fieldset>
+    <legend>Campos adicionales</legend>
+
+    <label for="correo">Correo electronico</label>
+    <input type="email" id="correo" name="correo" placeholder="nombre@correo.com"><br><br>
+
+    <label for="direccion">Direccion</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Calle, numero, ciudad"><br><br>
+
+    <label for="mes">Dime tu mes de nacimiento</label>
+    <input type="month" id="mes" name="mes"><br><br>
+
+    <label for="busqueda">Busqueda</label>
+    <input type="search" id="busqueda" name="busqueda" placeholder="Buscar..."><br><br>
+    
+    <label for="comentarios">Comentarios</label><br>
+    <textarea id="comentarios" name="comentarios" placeholder="Escribe aqui un comentario"></textarea><br><br>
+  </fieldset>
+
+  <br>
+  <input type="submit" value="Enviar">
+  <input type="reset" value="Resetear">
+</form>
+
