@@ -1,0 +1,34 @@
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+        }
+
+        h1 {
+            color: turquoise; 
+            font-size: 28px;
+        }
+
+        h2 {
+            color:purple; 
+            font-size: 22px;
+        }
+        p {
+            font-family: arial, sans-serif;
+            font-size: 14;
+        }
+
+        span {
+            font-family: 'Courier New', monospace;
+            font-size: 15px;
+        }
+
+        .azul {
+            color:blue;
+        }
+
+        .rojo {
+            color:red;
+        }
+        .green {
+            color:green;
+        }
