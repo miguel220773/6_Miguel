@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html,
+            body{
+                padding: 0;
+                margin: 0;
+            }
+
+            .container{
+                display: grid;
+                grid-template-rows: 25% 50% 25%;
+                grid-template-columns: 50% 25% 25%;
+                grid-template-areas: 
+                "header header header"
+                "main main aside"
+                "footer footer footer";
+                height: 100vh;
+            }
+
+            header{
+                grid-area: header;
+                background-color: aqua;
+            }
+
+            main{
+                grid-area: main;
+                background-color: yellow;
+            }
+
+            aside{
+                grid-area: aside;
+                background-color: green;
+
+            }
+
+            footer{
+                grid-area: footer;
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Header</h1>
+            </header>
+            <main>
+                <h1>Main</h1>
+            </main>
+            <aside>
+                <h3>ASIDE</h3>
+            </aside>
+            <footer>
+                <h1>FOOTER</h1>
+            </footer>
+        </div>
+    </body>
+</html>
