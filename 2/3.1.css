@@ -4,12 +4,12 @@
         }
 
         h1 {
-            color: turquoise; 
+            color: blue; 
             font-size: 28px;
         }
 
         h2 {
-            color:purple; 
+            color:orange; 
             font-size: 22px;
         }
         p {
@@ -23,12 +23,12 @@
         }
 
         .azul {
-            color:blue;
+            color:goldenrod;
         }
 
         .rojo {
-            color:red;
+            color:gold;
         }
         .green {
-            color:green;
+            color:violet;
         }
