@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('./../fotos/fondo.jpg') no-repeat center/cover;
+    color: white;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;jhhjk                                   
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+section {
+    padding: 20px 50px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+h2 {
+    color: #49a6a6;
+    font-size: 20px;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li::before {
+    content: "▶ ";
+    padding-right: 5px;
+    color: #49a6a6;
+}
+
+.check li::before {
+    content: "✔ ";
+    color: #49a6a6;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+a {
+    color: #49a6a6;
+    text-decoration: none;
+}
