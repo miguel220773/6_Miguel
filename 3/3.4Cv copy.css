@@ -13,8 +13,7 @@ body {
 }
 
 .foto {
-    width: 180px;
-    height: 180px;
+    width: 170px;
     border-radius: 50%;
 }
 
@@ -36,9 +35,9 @@ nav li {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
-    background-color: #6f8fa5;     
+    background-color: #6f8fa5;
     padding: 12px 25px;
-    border-radius: 10px;           
+    border-radius: 10px;
     border: 2px solid #4e6b80;
     display: inline-block;
     transition: 0.3s;
@@ -82,16 +81,18 @@ ul {
     padding-left: 0;
 }
 
-ul li::before {
+#skills ul li:before {
     content: "▶ ";
     padding-right: 5px;
     color: #49a6a6;
 }
 
-.check li::before {
+ul#idiomas li:before {
+    padding-right: 5px;
     content: "✔ ";
     color: #49a6a6;
 }
+
 
 footer {
     text-align: center;
